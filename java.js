@@ -1,6 +1,7 @@
 
 function addtocart() {
-    alert("Added to Cart successfully");
+  let cartsList = document.getElementById("cart");
+    cartsList = alert("Added to Cart successfully");
   }
   
   function darkmode(){
