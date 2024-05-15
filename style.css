@@ -246,11 +246,6 @@ margin-top: 200px;
     text-align: center;
 }
 
-
-    body {
-        background-color: rgb(12, 9, 7);
-    }
-
     .main-division {
         display: flex;
     }
