@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,6 +17,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer">
 
 </head>
+
 <body class="body">
   <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid p-1">
@@ -67,7 +67,8 @@
     </div>
     </div>
   </nav>
-<section id="menu" style="background-color: #F0EAE7; box-shadow: 0px 2px 5px gray;">
+  
+  <section id="menu" style=" box-shadow: 0px 2px 5px gray;">
 
     <div class="container">
       <div class="row">
@@ -80,36 +81,7 @@
       <div class="row p-3">
         <div class="col-lg-3 col-sm-6 mb-2">
           <div class="menu-card">
-            <img src="imgs/veg/butter-panner-masala.jpeg" style="margin-left: 23px;" class="img-fluid" alt="#">
-            <div class="rating text-center " style="color: orange;">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <a href="#" style="color: black; text-decoration: none;">
-              <h4 class="text-center mb-3 mt-2">Butter-panner</h4>
-            </a>
-            <p class="product-price">
-              Price = 1499/-
-          </p>
-          <p id="show-quantity">Total Products: 1 x 1499</p>
-          <p id="show-total">Total:</p>
-          <div class="quantity-btn-container">
-              <img src="./images\minus.png" class="btn-quantity"
-                  onclick="dec()" />
-              <span class="quantity-text" id="quantity-text">1</span>
-              <img src="./images\add.png" class="btn-quantity"
-                  onclick=" inc()" />
-          </div>
-          <button type="button" class="btn-buy"> Buy Now</button>
-      </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-2">
-          <div class="menu-card">
-            <img src="imgs/veg/aalu-pakodi.jpeg" style="margin-left: 23px;" class="img-fluid" alt="#">
+            <img src="imgs/m1.png" class="img-fluid" alt="#">
             <div class="rating text-center" style="color: orange;">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -118,29 +90,17 @@
               <i class="fa-regular fa-star"></i>
             </div>
             <a href="#" style="color: black; text-decoration: none;">
-              <h4 class="text-center mb-3 mt-2">Aalo-Pakodi</h4>
+              <h4 class="text-center mb-3 mt-2">Coffee</h4>
             </a>
-            <p class="product-price">
-              Price = 1499/-
-          </p>
-          <p id="show-quantity">Total Products: 1 x 1499</p>
-          <p id="show-total">Total:</p>
-          <div class="quantity-btn-container">
-              <img src="./images\minus.png" class="btn-quantity"
-                  onclick="dec()" />
-              <span class="quantity-text" id="quantity-text">1</span>
-              <img src="./images\add.png" class="btn-quantity"
-                  onclick=" inc()" />
-          </div>
-          <button type="button" class="btn-buy"> Buy Now</button>
-      </div>
+            <div class="base d-flex">
+              <div class="prize">$99 <span><del>$100</del></span></div>
+              <div class="cart" onclick="addtocart()"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
           </div>
         </div>
-
-
         <div class="col-lg-3 col-sm-6 mb-2">
           <div class="menu-card">
-            <img src="imgs/veg/veg-curry.jpeg" style="margin-left: 23px;" class="img-fluid" alt="#">
+            <img src="imgs/m2.png" class="img-fluid" alt="#">
             <div class="rating text-center" style="color: orange;">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -149,27 +109,36 @@
               <i class="fa-regular fa-star"></i>
             </div>
             <a href="#" style="color: black; text-decoration: none;">
-              <h4 class="text-center mb-3 mt-2">Veg curry</h4>
+              <h4 class="text-center mb-3 mt-2">Coffee</h4>
             </a>
-            <p class="product-price">
-              Price = 1499/-
-          </p>
-          <p id="show-quantity">Total Products: 1 x 1499</p>
-          <p id="show-total">Total:</p>
-          <div class="quantity-btn-container">
-              <img src="./images\minus.png" class="btn-quantity"
-                  onclick="dec2()" />
-              <span class="quantity-text" id="quantity-text">1</span>
-              <img src="./images\add.png" class="btn-quantity"
-                  onclick=" inc2()" />
+            <div class="base d-flex">
+              <div class="prize">$99 <span><del>$100</del></span></div>
+              <div class="cart" onclick="addtocart()"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
           </div>
-          <button type="button" class="btn-buy"> Buy Now</button>
-      </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-2">
+          <div class="menu-card">
+            <img src="imgs/m3.png" class="img-fluid" alt="#">
+            <div class="rating text-center" style="color: orange;">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" style="color: black; text-decoration: none;">
+              <h4 class="text-center mb-3 mt-2">Coffee</h4>
+            </a>
+            <div class="base d-flex">
+              <div class="prize">$99 <span><del>$100</del></span></div>
+              <div class="cart" onclick="addtocart()"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6  mb-2">
           <div class="menu-card">
-            <img src="imgs/veg/veg-cutlet.jpeg" style="margin-left: 23px;" class="img-fluid" alt="#">
+            <img src="imgs/m4.png" class="img-fluid" alt="#">
             <div class="rating text-center" style="color: orange;">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -178,27 +147,17 @@
               <i class="fa-regular fa-star"></i>
             </div>
             <a href="#" style="color: black; text-decoration: none;">
-              <h4 class="text-center mb-3 mt-2">Paneer masala</h4>
+              <h4 class="text-center mb-3 mt-2">Coffee</h4>
             </a>
-            <p class="product-price">
-              Price = 1499/-
-          </p>
-          <p id="show-quantity">Total Products: 1 x 1499</p>
-          <p id="show-total">Total:</p>
-          <div class="quantity-btn-container">
-              <img src="./images\minus.png" class="btn-quantity"
-                  onclick="dec()" />
-              <span class="quantity-text" id="quantity-text">1</span>
-              <img src="./images\add.png" class="btn-quantity"
-                  onclick=" inc()" />
-          </div>
-          <button type="button" class="btn-buy"> Buy Now</button>
-      </div>
+            <div class="base d-flex">
+              <div class="prize">$99 <span><del>$100</del></span></div>
+              <div class="cart" onclick="addtocart()"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 mt-2">
-          <div class="menu-card" style="display: flexbox;">
-            <img src="imgs/street-food/BURGER.jpg" style="height: 290px;" class="img-fluid" alt="#">
+          <div class="menu-card">
+            <img src="imgs/m5.png" class="img-fluid" alt="#">
             <div class="rating text-center" style="color: orange;">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -207,27 +166,17 @@
               <i class="fa-regular fa-star" mt-3></i>
             </div>
             <a href="#" style="color: black; text-decoration: none;">
-              <h4 class="text-center mb-3 mt-2">Burgur</h4>
+              <h4 class="text-center mb-3 mt-2">Coffee</h4>
             </a>
-            <p class="product-price">
-              Price = 1499/-
-          </p>
-          <p id="show-quantity">Total Products: 1 x 1499</p>
-          <p id="show-total">Total:</p>
-          <div class="quantity-btn-container">
-              <img src="./images\minus.png" class="btn-quantity"
-                  onclick="dec()" />
-              <span class="quantity-text" id="quantity-text">1</span>
-              <img src="./images\add.png" class="btn-quantity"
-                  onclick=" inc()" />
-          </div>
-          <button type="button" class="btn-buy"> Buy Now</button>
-      </div>
+            <div class="base d-flex">
+              <div class="prize">$99 <span><del>$100</del></span></div>
+              <div class="cart" onclick="addtocart()"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 mt-2">
           <div class="menu-card">
-            <img src="imgs/street-food/cachori.jpg" class="img-fluid" alt="#">
+            <img src="imgs/m6.png" class="img-fluid" alt="#">
             <div class="rating text-center" style="color: orange;">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -236,27 +185,17 @@
               <i class="fa-regular fa-star"></i>
             </div>
             <a href="#" style="color: black; text-decoration: none;">
-              <h4 class="text-center mb-3 mt-2">Cachori</h4>
+              <h4 class="text-center mb-3 mt-2">Coffee</h4>
             </a>
-            <p class="product-price">
-              Price = 1499/-
-          </p>
-          <p id="show-quantity">Total Products: 1 x 1499</p>
-          <p id="show-total">Total:</p>
-          <div class="quantity-btn-container">
-              <img src="./images\minus.png" class="btn-quantity"
-                  onclick="dec()" />
-              <span class="quantity-text" id="quantity-text">1</span>
-              <img src="./images\add.png" class="btn-quantity"
-                  onclick=" inc()" />
-          </div>
-          <button type="button" class="btn-buy"> Buy Now</button>
-      </div>
+            <div class="base d-flex">
+              <div class="prize">$99 <span><del>$100</del></span></div>
+              <div class="cart" onclick="addtocart()"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 mt-2">
           <div class="menu-card">
-            <img src="imgs/street-food/samosaa.jpg" class="img-fluid" alt="#">
+            <img src="imgs/m7.png" class="img-fluid" alt="#">
             <div class="rating text-center" style="color: orange;">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -265,27 +204,17 @@
               <i class="fa-regular fa-star"></i>
             </div>
             <a href="#" style="color: black; text-decoration: none;">
-              <h4 class="text-center mb-3 mt-2">Samosaa</h4>
+              <h4 class="text-center mb-3 mt-2">Coffee</h4>
             </a>
-            <p class="product-price">
-              Price = 1499/-
-          </p>
-          <p id="show-quantity">Total Products: 1 x 1499</p>
-          <p id="show-total">Total:</p>
-          <div class="quantity-btn-container">
-              <img src="./images\minus.png" class="btn-quantity"
-                  onclick="dec()" />
-              <span class="quantity-text" id="quantity-text">1</span>
-              <img src="./images\add.png" class="btn-quantity"
-                  onclick=" inc()" />
-          </div>
-          <button type="button" class="btn-buy"> Buy Now</button>
-      </div>
+            <div class="base d-flex">
+              <div class="prize">$99 <span><del>$100</del></span></div>
+              <div class="cart" onclick="addtocart()"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 mt-2 mb-5">
           <div class="menu-card">
-            <img src="imgs/street-food/sandwich.jpg" class="img-fluid" alt="#">
+            <img src="imgs/m8.png" class="img-fluid" alt="#">
             <div class="rating text-center" style="color: orange;">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -294,48 +223,41 @@
               <i class="fa-regular fa-star"></i>
             </div>
             <a href="#" style="color: black; text-decoration: none;">
-              <h4 class="text-center mb-3 mt-2">Sandwich</h4>
+              <h4 class="text-center mb-3 mt-2">Coffee</h4>
             </a>
             <div class="base d-flex">
-              <p class="product-price">
-                Price = 1499/-
-            </p>
-            <p id="show-quantity">Total Products: 1 x 1499</p>
-            <p id="show-total">Total:</p>
-            <div class="quantity-btn-container">
-                <img src="./images\minus.png" class="btn-quantity"
-                    onclick="dec()" />
-                <span class="quantity-text" id="quantity-text">1</span>
-                <img src="./images\add.png" class="btn-quantity"
-                    onclick=" inc()" />
-            </div>
-            <button type="button" class="btn-buy"> Buy Now</button>
-        </div>
+              <div class="prize">$99 <span><del>$100</del></span></div>
+              <div class="cart" onclick="addtocart()"><i class="fa-solid fa-cart-shopping"></i></div>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </section>
-
-
   <section id="footer" style="background-color:   #ebd8b5;">
-    <div class="container" style="position: relative;" >
+    <div class="container" style="position: relative;">
       <div class="row d-flex justify-content-center">
         <div class="col-lg-6 text-center">
           <div class="logo">
-            <H3 class="Cafe mb-0 mt-0 py-0" 
-            style="position: absolute;left: 40.7vw; top:0px; color: rgb(219, 194, 101); font-weight: 600;">Hotel</H3>
+            <H3 class="Cafe mb-0 mt-0 py-0"
+              style="position: absolute;left: 40.7vw; top:0px; color: rgb(219, 194, 101); font-weight: 600;">Hotel</H3>
             <H1 class=" mb-0 mt-3" style="font-weight: 600;">Kuber</H1>
-           </div>
-            <div class="icons pt-2" >
-              <i class="fa-brands fa-twitter  bg-dark" style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
-              <i class="fa-brands fa-instagram bg-dark" style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
-              <i class="fa-brands fa-facebook bg-dark" style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
-              <i class="fa-solid fa-envelope bg-dark" style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
-              <i class="fa-brands fa-pinterest bg-dark" style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
-            </div>
-            <p class=" pt-2">Designed By:- <strong>_sanjay_____raut____</strong></p>
-            <p class="small" style="margin-top: -11px;"> <i class="fa-regular fa-copyright"></i> Copyright <strong style="cursor: pointer;">Hotel Kuber</strong> All Rights Reserved</p>
+          </div>
+          <div class="icons pt-2">
+            <i class="fa-brands fa-twitter  bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+            <i class="fa-brands fa-instagram bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+            <i class="fa-brands fa-facebook bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+            <i class="fa-solid fa-envelope bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+            <i class="fa-brands fa-pinterest bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+          </div>
+          <p class=" pt-2">Designed By:- <strong>_sanjay_____raut____</strong></p>
+          <p class="small" style="margin-top: -11px;"> <i class="fa-regular fa-copyright"></i> Copyright <strong
+              style="cursor: pointer;">Hotel Kuber</strong> All Rights Reserved</p>
         </div>
       </div>
     </div>
@@ -344,7 +266,7 @@
   <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-    <script src="C:\Users\shahaji waditke\Desktop\Kuber-Hotel\java.js "></script>
+  <script src="C:\Users\shahaji waditke\Desktop\Kuber-Hotel\java.js "></script>
 </body>
 
 </html>
