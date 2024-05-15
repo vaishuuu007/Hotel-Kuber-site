@@ -69,7 +69,7 @@ function inc() {
     const showQuantity = document.getElementById("show-quantity");
     const showTotal = document.getElementById("show-total");
     let quantity = parseInt(quantityText.innerText);
-    if (quantity < 20) {
+    if (quantity < 5) {
         quantityText.innerText = ++quantity;
     }
     else {
@@ -103,7 +103,7 @@ function inc1() {
     const showQuantity = document.getElementById("show-quantity0");
     const showTotal = document.getElementById("show-total0");
     let quantity = parseInt(quantityText.innerText);
-    if (quantity < 20) {
+    if (quantity < 10) {
         quantityText.innerText = ++quantity;
     }
     else {
@@ -137,7 +137,7 @@ function inc2() {
     const showQuantity = document.getElementById("show-quantity1");
     const showTotal = document.getElementById("show-total1");
     let quantity = parseInt(quantityText.innerText);
-    if (quantity < 20) {
+    if (quantity < 15) {
         quantityText.innerText = ++quantity;
     }
     else {
