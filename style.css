@@ -320,7 +320,7 @@ margin-top: 200px;
 
     /* Slideshow container */
     .slideshow-container {
-      max-width: 1000px;
+      max-width: 500px;
       position: relative;
       margin: auto;
     }
@@ -396,12 +396,12 @@ margin-top: 200px;
     /* Fading animation */
     .fade {
       animation-name: fade;
-      animation-duration: 1.5s;
+      animation-duration: 2.5s;
     }
     
     @keyframes fade {
       from {opacity: .4}
-      to {opacity: 1}
+      to {opacity: 5}
     }
 
 
