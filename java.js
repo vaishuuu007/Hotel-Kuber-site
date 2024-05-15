@@ -64,8 +64,6 @@ function addtocart() {
       mainImage.src = imageName;
 }
 
-
-
 function inc() {
     const quantityText = document.getElementById("quantity-text");
     const showQuantity = document.getElementById("show-quantity");
@@ -75,7 +73,7 @@ function inc() {
         quantityText.innerText = ++quantity;
     }
     else {
-        alert("you can't add more than 20 items ")
+        alert("you can't book more than 5 items ")
     }
     showQuantity.innerText = `Total Produccts: ${quantity}×349`;
 
@@ -92,7 +90,7 @@ function dec() {
         quantityText.innerText = --quantity;
     }
     else {
-        alert("you can't add less than 1 items ")
+        alert("you can't book less than 1 items ")
     }
     showQuantity.innerText = `Total Products: ${quantity}1499`;
 
@@ -109,7 +107,7 @@ function inc1() {
         quantityText.innerText = ++quantity;
     }
     else {
-        alert("you can't add more than 20 items ")
+        alert("you can't book more than 10 items ")
     }
     showQuantity.innerText = `Total Produccts: ${quantity}×1999`;
 
@@ -125,7 +123,7 @@ function dec1() {
         quantityText.innerText = --quantity;
     }
     else {
-        alert("you can't add less than 1 items ")
+        alert("you can't book less than 1 items ")
     }
     showQuantity.innerText = `Total Products: ${quantity}×1999`;
 
@@ -143,7 +141,7 @@ function inc2() {
         quantityText.innerText = ++quantity;
     }
     else {
-        alert("you can't add more than 20 items ")
+        alert("you can't book more than 15 items ")
     }
     showQuantity.innerText = `Total Produccts: ${quantity}×1500`;
 
@@ -159,7 +157,7 @@ function dec2() {
         quantityText.innerText = --quantity;
     }
     else {
-        alert("you can't add less than 1 items ")
+        alert("you can't book less than 1 items ")
     }
     showQuantity.innerText = `Total Products: ${quantity}×1500`;
 
@@ -167,3 +165,31 @@ function dec2() {
 
 }
 
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
